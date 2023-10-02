@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Portfolio Project developed by David Agbaniyaka
 
-## Getting Started
+What I learned:
+- Latest Next.js 13 features
+- Next.js App Router
+- Next.js Server Actions
+- Client & Server Components
+- TypeScript (Beginner & Intermediate)
+- Tailwind CSS
+- Context API
+- Advanced Animations with Framer Motion
+- React.Email & Resend
+- Custom React hooks
+- Fresh, modern UI design
+- Light & Dark mode
+- Responsive website
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Key Notes:
+    - Using custom hex colors in Tailwind CSS
+    absolute position top-[-6rem] makes it uull up 
+    - How to be more specifit while exporting using Typescript
+    When importing external images in next,js, we need to provide a with and a height
+    - When adjusting image height and with, it adjusts the aspect ratio so use object cover to preserve the aspect ratio.
+    - When using a fixed header, the header is taken out of the docxument flow, and therefore what comes after willl sit on top pf the page. To solve this we add some padding on top of the body.
+    - When we want to create a 'Component Element' to wrap JSX content in, in the creation of the component, it has to recieve a 'children' prop e.g export default function SectionHeading({children}).
+    -Create Context Hook in React.
+    -scroll-mt-[value] in Tailwind CSS gives margin to a section of a page that was navigated to.
+    -When we flex items that are many, they will be cramped up on one line. Use flex-wrap to allow them wrap to multiple lines.
+    -How to use localstorage to make the browser remember what color mode our website is using.
+Credit: 
