@@ -63,14 +63,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm David.</span> <br></br>I'm a{" "}
-        <span className="font-bold">Front-End Developer and your next great hire</span> I enjoy
-        building <span className="italic">sites & apps</span>. My focus is on{" "}
+        <span className="font-bold">Hello, I'm David.</span><br></br>I'm a{" "}
+        <span className="font-bold">Front-End Developer{" "}</span>and your next great hire.<br></br>My focus is on{" "}
         <span className="underline">React and Next.js</span>
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-3 px-4 text-lg font-medium"
+        className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -97,7 +96,7 @@ export default function Intro() {
           David's CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-        <div className="flex gap-2 justify-center items-center">
+        <div className="flex gap-4 justify-center items-center">
 
         
           <a
