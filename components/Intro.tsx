@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
@@ -33,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src={profilePicture}
-              alt="Ricardo portrait"
+              alt="David Agbaniyaka"
               width="192"
               height="192"
               quality="95"
@@ -63,11 +62,9 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, I'm David.</span><br></br>I'm a{" "}
-        <span className="font-bold">Front-End Developer{" "}</span>and your next great hire.<br></br>My focus is on{" "}
-        <span className="underline">React and Next.js</span>
+        <span className="font-bold">Hi, I'm David. A fast growing Web Developer from Nigeria.</span>
       </motion.h1>
-
+      
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-4 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
@@ -84,7 +81,7 @@ export default function Intro() {
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact David{" "}
+          Contact Me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -93,7 +90,7 @@ export default function Intro() {
           href="/CV.pdf"
           download
         >
-          David's CV{" "}
+          My Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
         <div className="flex gap-4 justify-center items-center">
