@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaGithubSquare } from "react-icons/fa";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -51,6 +52,10 @@ export default function Project({
               </li>
             ))}
           </ul>
+          
+         <div>
+      
+         </div>
         </div>
 
         <Image
@@ -70,6 +75,7 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+        
       </section>
       </a>
     </motion.div>

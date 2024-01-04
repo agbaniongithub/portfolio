@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import memegeneratorImg from "@/public/Meme Generator.png"
+import sneakerImg from "@/public/sneakerImg.png";
 
 export const links = [
   {
@@ -58,32 +60,60 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Fancy Counter",
+    description:
+      "Users can give public feedback to companies.",
+    tags: ["HTML", "CSS", "Javascript"],
+    imageUrl: corpcommentImg,
+    githubUrl: "www.https://github.com/agbaniongithub/fancy-counter",
+    siteUrl: "https://fancycounterbyagbani.netlify.app"
+  },
+  {
     title: "CorpComment",
     description:
       "Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
-    githubUrl: "www.coioijercverv",
-    siteUrl: "https://wordanalyticsbyagbani.netlify.app"
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    githubUrl: "www.coioijercverv",
-    siteUrl: "https://wordanalyticsbyagbani.netlify.app"
+    githubUrl: "www.https://github.com/agbaniongithub/corpcomment",
+    siteUrl: "https://corpcommentbyagbani.netlify.app"
   },
   {
     title: "Word Analytics",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
     siteUrl: "https://wordanalyticsbyagbani.netlify.app"
   },
+  
+  {
+    title: "React Meme Generator",
+    description:
+    "A meme generator with nostalgic and popular memes built with React and Tailwind CSS.",
+    tags: ["React", "Tailwind"],
+    imageUrl: memegeneratorImg,
+    githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
+    siteUrl: "https://memegeneratorbyagbani.netlify.app"
+  },
+  {
+    title: "E-Commerce Page",
+    description:
+    "An E-Commerce landing page. I was the front-end developer.",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: sneakerImg,
+    githubUrl: "https://github.com/agbaniongithub/E-commerce-product-page",
+    siteUrl: "https://e-commerce-agbani.netlify.app/"
+  },
+  {
+    title: "rmtDev",
+    description:
+      "Job board for remote developer jobs. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: rmtdevImg,
+    githubUrl: "https://github.com/agbaniongithub/corpcomment",
+    siteUrl: "https://rmtdevbyagbani.netlify.app"
+  }
 ] as const;
 
 export const skillsData = [
