@@ -7,6 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import memegeneratorImg from "@/public/Meme Generator.png"
 import sneakerImg from "@/public/sneakerImg.png";
+import fancyImg from "@/public/fancy-counter.png"
 
 export const links = [
   {
@@ -62,10 +63,10 @@ export const projectsData = [
   {
     title: "Fancy Counter",
     description:
-      "Users can give public feedback to companies.",
+      "Fancy Counter is a simple yet powerful and beautiful counter application for the web.",
     tags: ["HTML", "CSS", "Javascript"],
-    imageUrl: corpcommentImg,
-    githubUrl: "www.https://github.com/agbaniongithub/fancy-counter",
+    imageUrl: fancyImg,
+    githubUrl: "https://github.com/agbaniongithub/fancy-counter",
     siteUrl: "https://fancycounterbyagbani.netlify.app"
   },
   {
@@ -74,7 +75,7 @@ export const projectsData = [
       "Users can give public feedback to companies.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
     imageUrl: corpcommentImg,
-    githubUrl: "www.https://github.com/agbaniongithub/corpcomment",
+    githubUrl: "https://github.com/agbaniongithub/corpcomment",
     siteUrl: "https://corpcommentbyagbani.netlify.app"
   },
   {
