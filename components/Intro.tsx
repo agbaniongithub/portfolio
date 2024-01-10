@@ -56,13 +56,21 @@ export default function Intro() {
           </motion.span>
         </div>
       </div>
-
+      {/* <motion.h1
+        initial={{ opacity: 0, scale: 0.8, y: -50 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        transition={{
+          duration: 1,
+          ease: 'easeOut',
+          delay: 0.5,
+        }}
+      > */}
       <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I'm David. A fast growing Web Developer from Nigeria.</span>
+        <span className="font-bold">Hi, I'm David. A Web Developer</span>
       </motion.h1>
       
       <motion.div
