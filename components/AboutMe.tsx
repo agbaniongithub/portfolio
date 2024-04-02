@@ -19,7 +19,7 @@ export default function AboutMe() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        "Hey there! 👋 I'm David, a passionate developer from Nigeria with a flair for turning lines of code into captivating user experiences. I believe in fundamentals and principles, and I also believe in thinking outside the box. I'm currently open to tackling new projects or joining a creative team."
+        I'm a full stack developer with a deep understanding of the web. Contact me for web based services, consultation, or hiring.
       </p>
     </motion.section>
   );

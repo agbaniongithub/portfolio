@@ -6,9 +6,9 @@ export default function Footer() {
       <small className="mb-2 block text-xs">
         &copy; 2023 David Agba. All rights reserved.
       </small>
-      <p className="text-xs">
-        <span className="font-semibold">About this website:</span> Built with
-        React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
+      <p className="text-xs font-semibold">
+        Built by David Agbaniyaka with
+        React & Next.js, TypeScript, Tailwind CSS,
         Framer Motion, React Email & Resend, Vercel hosting.
       </p>
     </footer>

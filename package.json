@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.0.2",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "0.0.9",
     "@types/node": "20.6.5",
@@ -16,10 +17,12 @@
     "@types/react-dom": "18.2.7",
     "@vercel/speed-insights": "^1.0.2",
     "autoprefixer": "10.4.16",
-    "clsx": "^2.0.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.2",
     "framer-motion": "^10.16.4",
+    "lucide-react": "^0.330.0",
     "next": "13.5.2",
     "postcss": "8.4.30",
     "react": "18.2.0",
@@ -29,7 +32,9 @@
     "react-intersection-observer": "^9.5.2",
     "react-vertical-timeline-component": "^3.6.0",
     "resend": "^0.16.0",
+    "tailwind-merge": "^2.2.1",
     "tailwindcss": "3.3.3",
+    "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2"
   },
   "devDependencies": {
