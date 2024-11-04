@@ -19,8 +19,8 @@ export default function AboutMe() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        "Hey there! 👋 I'm David, a passionate developer from Nigeria with a flair for turning lines of code into captivating user experiences. I believe in fundamentals and principles, and I also believe in thinking outside the box. I'm currently open to tackling new projects or joining a creative team."
-      </p>
+      Hi, I'm David, a passionate FrontEnd Developer based in Lagos, Nigeria. With a background in Engineering and Information Technology, I specialize in building the UI for Websites and Applications.
+My journey began with a desire to study the web. I quickly discovered I was interested in manipulating the look and feel of websites from the underlying code. I believe in atomic habits, and setting out time to study daily helps me improve in my craft as a FrontEnd Developer. strive to incorporate that into everything I do. On this site, you'll find my portfolio of projects. Feel free to explore, and don't hesitate to reach out if you'd like to connect!</p>
     </motion.section>
   );
 }
