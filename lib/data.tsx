@@ -86,34 +86,6 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
     siteUrl: "https://wordanalyticsbyagbani.netlify.app"
-  },
-  
-  {
-    title: "React Meme Generator",
-    description:
-    "A meme generator with nostalgic and popular memes built with React and Tailwind CSS.",
-    tags: ["React", "Tailwind"],
-    imageUrl: memegeneratorImg,
-    githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
-    siteUrl: "https://memegeneratorbyagbani.netlify.app"
-  },
-  {
-    title: "E-Commerce Page",
-    description:
-    "An E-Commerce landing page. I was the front-end developer.",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: sneakerImg,
-    githubUrl: "https://github.com/agbaniongithub/E-commerce-product-page",
-    siteUrl: "https://e-commerce-agbani.netlify.app/"
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-    githubUrl: "https://github.com/agbaniongithub/corpcomment",
-    siteUrl: "https://rmtdevbyagbani.netlify.app"
   }
 ] as const;
 
@@ -122,12 +94,16 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "ReactJS",
+  "NextJS",
+  "NodeJS",
   "Git",
-  "Tailwind",
+  "Tailwind CSS",
+  "PHP",
+  "Wordpress",
+  "MySQL",
   "Prisma",
   "MongoDB",
   "Framer Motion",
+  "Oracle Flexcube"
 ] as const;
