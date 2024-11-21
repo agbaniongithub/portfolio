@@ -70,15 +70,6 @@ export const projectsData = [
     siteUrl: "https://fancycounterbyagbani.netlify.app"
   },
   {
-    title: "CorpComment",
-    description:
-      "Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
-    githubUrl: "https://github.com/agbaniongithub/corpcomment",
-    siteUrl: "https://corpcommentbyagbani.netlify.app"
-  },
-  {
     title: "Word Analytics",
     description:
     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
