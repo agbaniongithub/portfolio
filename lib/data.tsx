@@ -75,7 +75,7 @@ export const projectsData = [
     title: "VoltStore",
     description:
       "Fancy Counter is a simple yet powerful and beautiful counter application for the web.",
-    tags: ["ReactJS / NextJS", "Git/Version COntrol", "Tailwind CSS", "MongoDB", 'NodeJS', 'ExpressJS'],
+    tags: ["NextJS", "Git", "Typescript", "Tailwind CSS", "MongoDB", 'NodeJS', 'ExpressJS'],
     imageUrl: home,
     githubUrl: "https://github.com/IbnuJabir/Voltstore/",
     siteUrl: "https://github.com/IbnuJabir/Voltstore/"

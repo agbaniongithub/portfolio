@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import SectionHeading from "./SectionHeading"
+import SectionHeading from "./SectionHeading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
@@ -19,8 +19,18 @@ export default function AboutMe() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      Hi, I'm David, a passionate FrontEnd Developer based in Lagos, Nigeria. With a background in Engineering and Information Technology, I specialize in building the UI for Websites and Applications.
-My journey began with a desire to study the web. I quickly discovered I was interested in manipulating the look and feel of websites from the underlying code. I believe in atomic habits, and setting out time to study daily helps me improve in my craft as a FrontEnd Developer. strive to incorporate that into everything I do. On this site, you'll find my portfolio of projects. Feel free to explore, and don't hesitate to reach out if you'd like to connect!</p>
+        Hi, I'm David, a Frontend Developer based in Lagos, Nigeria, with a
+        strong foundation in Engineering and Information Technology. I
+        specialize in crafting intuitive and visually appealing user interfaces
+        for websites and applications. My journey into web development began
+        with a curiosity to understand how the web works, and I quickly became
+        fascinated by the art of shaping a website's look and feel through code.
+        Driven by a commitment to continuous improvement, I practice daily
+        learning and believe in the power of atomic habits to enhance my skills
+        and creativity. This site showcases my portfolio of projects, where
+        passion meets precision. Feel free to explore, and don't hesitate to
+        reach out—I’d love to connect!
+      </p>
     </motion.section>
   );
 }
