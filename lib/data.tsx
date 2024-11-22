@@ -65,7 +65,7 @@ export const projectsData = [
   {
     title: "Lowkey Autos",
     description:
-      "The Lowkey Autos website is a sleek, user-friendly platform designed with a focus on aesthetics and functionality. This project showcases a perfect blend of modern design and technical excellence.",
+      "The Lowkey Autos website is a sleek, user-friendly platform designed with a focus on aesthetics and functionality.",
     tags: ["HTML", "ReactJS / NextJS", "Tailwind CSS", "Framer Motion"],
     imageUrl: lowkey,
     githubUrl: "https://github.com/agbaniongithub/lowkey-autos",
