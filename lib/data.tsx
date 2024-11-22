@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: "VoltStore",
     description:
-      "Voltstore is an e-commerce website designed to provide consumers with a reliable online shopping environment with a wide range of products at low prices.",
+      "Voltstore is a MERN stack e-commerce website. I was the Frontend Developer.",
     tags: ["NextJS", "Git", "Typescript", "Tailwind CSS", "MongoDB", 'NodeJS', 'ExpressJS'],
     imageUrl: home,
     githubUrl: "https://github.com/IbnuJabir/Voltstore/",
