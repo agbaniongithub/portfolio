@@ -6,11 +6,11 @@ import Footer from "@/components/Footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
-import { SpeedInsights } from "@vercel/speed-insights/next"
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-const mont = Montserrat({subsets: ["latin"], variable: '--font-mont'})
+const mont = Montserrat({ subsets: ["latin"], variable: "--font-mont" });
 
 export const metadata = {
   title: "David's Portfolio",

@@ -8,6 +8,8 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import memegeneratorImg from "@/public/Meme Generator.png"
 import sneakerImg from "@/public/sneakerImg.png";
 import fancyImg from "@/public/fancy-counter.png"
+import lowkey from '@/public/lowkey.png'
+import home from '@/public/home.png'
 
 export const links = [
   {
@@ -61,6 +63,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Lowkey Autos",
+    description:
+      "The Lowkey Autos website is a sleek, user-friendly platform designed with a focus on aesthetics and functionality. This project showcases a perfect blend of modern design and technical excellence.",
+    tags: ["HTML", "ReactJS / NextJS", "Tailwind CSS", "Framer Motion"],
+    imageUrl: lowkey,
+    githubUrl: "https://github.com/agbaniongithub/lowkey-autos",
+    siteUrl: "https://lowkey-autos.vercel.app"
+  },
+  {
+    title: "VoltStore",
+    description:
+      "Fancy Counter is a simple yet powerful and beautiful counter application for the web.",
+    tags: ["ReactJS / NextJS", "Git/Version COntrol", "Tailwind CSS", "MongoDB", 'NodeJS', 'ExpressJS'],
+    imageUrl: home,
+    githubUrl: "https://github.com/IbnuJabir/Voltstore/",
+    siteUrl: "https://github.com/IbnuJabir/Voltstore/"
+  },
+  {
     title: "Fancy Counter",
     description:
       "Fancy Counter is a simple yet powerful and beautiful counter application for the web.",
@@ -73,7 +93,7 @@ export const projectsData = [
     title: "Word Analytics",
     description:
     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    tags: ["HTML", "CSS", "Javascript"],
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
     siteUrl: "https://wordanalyticsbyagbani.netlify.app"
