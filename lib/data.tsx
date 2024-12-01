@@ -69,7 +69,7 @@ export const projectsData = [
     tags: ["HTML", "ReactJS / NextJS", "Tailwind CSS", "Framer Motion"],
     imageUrl: lowkey,
     githubUrl: "https://github.com/agbaniongithub/lowkey-autos",
-    siteUrl: "https://lowkey-autos.vercel.app"
+    siteUrl: "testdomainlowkeyautos.vercel.app"
   },
   {
     title: "VoltStore",
