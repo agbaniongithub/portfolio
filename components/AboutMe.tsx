@@ -19,7 +19,7 @@ export default function AboutMe() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hi, I'm David, a Frontend Developer based in Lagos, Nigeria, with a
+        Hi, I'm David, a Frontend Developer with a
         strong foundation in Engineering and Information Technology. I
         specialize in crafting intuitive and visually appealing user interfaces
         for websites and applications. My journey into web development began
