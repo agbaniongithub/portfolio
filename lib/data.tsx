@@ -69,7 +69,7 @@ export const projectsData = [
     tags: ["HTML", "ReactJS / NextJS", "Tailwind CSS", "Framer Motion"],
     imageUrl: lowkey,
     githubUrl: "https://github.com/agbaniongithub/lowkey-autos",
-    siteUrl: "testdomainlowkeyautos.vercel.app"
+    siteUrl: "https://testdomainlowkeyautos.vercel.app"
   },
   {
     title: "VoltStore",
@@ -97,6 +97,24 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
     githubUrl: "https://github.com/agbaniongithub/Word-Analytics",
     siteUrl: "https://wordanalyticsbyagbani.netlify.app"
+  },
+  {
+    title: "Space Tourism",
+    description:
+      "A challenging UI for a space exploration website courtesy of FrontEnd Mentor",
+    tags: ["Next.JS", "Tailwind CSS"],
+    imageUrl: "/space-tourism.png",
+    githubUrl: "https://github.com/agbaniongithub/space-tourism-website",
+    siteUrl: "https://space-tourism-website-drab.vercel.app"
+  },
+  {
+    title: "CorpComment",
+    description:
+      "Users can give public feedback to companies.",
+    tags: ["HMTL", "CSS", "Javascript", "Node.JS"],
+    imageUrl: "/corpcomment.png",
+    githubUrl: "https://github.com/agbaniongithub/corpcomment",
+    siteUrl: "https://corpcommentbyagbani.netlify.app"
   }
 ] as const;
 
